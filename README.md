@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/ottoeeronheimo/Testing/badge.svg)](https://coveralls.io/github/ottoeeronheimo/Testing)
+
 # Disclaimer
 
 The src/ folder contains code by Tampere University course COMP.SE.200-2022-2023-1 Software Testing.
