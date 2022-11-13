@@ -1,7 +1,24 @@
 {
-    "scripts": {
-        "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
-        "coverage": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage"
-    },
-    "type": "module"
+  "name": "sw-tsting-part2",
+  "version": "1.0.0",
+  "description": "Module testing for course assignment part2",
+  "main": "index.js",
+  "type": "module",
+  "author": "Otto Eeronheimo, Alex Malkki",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "coverage": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ottoeeronheimo/Testing.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ottoeeronheimo/Testing/issues"
+  },
+  "homepage": "https://github.com/ottoeeronheimo/Testing#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }

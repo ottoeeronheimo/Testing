@@ -1,0 +1,22 @@
+name: Workflow
+run-name: Job activated by ${{github.actor}}
+on:
+  push:
+    branches: [ main ]
+jobs:
+  main-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use checkout action for the vm
+        uses: actions/checkout@v3
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14.x
+      - name: Run tests and get coveralls
+        run: npm run coverage
+      - name: Use GitHub Coveralls
+        uses: coverallsapp/github-action@1.1.3
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          path-to-lcov: ./coverage/lcov.info
