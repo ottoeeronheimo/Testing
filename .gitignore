@@ -1,2 +1,4 @@
 node_modules/
 coverage/
+# Älä poista, kuuluu omaan ympäristöön
+Dockerfile
