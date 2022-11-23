@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/ottoeeronheimo/Testing/badge.svg?branch=main)](https://coveralls.io/github/ottoeeronheimo/Testing?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/ottoeeronheimo/Testing/badge.svg?branch=main&service=github)](https://coveralls.io/github/ottoeeronheimo/Testing?branch=main&service=github)
 
 # Disclaimer
 
