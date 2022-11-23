@@ -14,8 +14,8 @@
     "type": "module",
     "author": "Otto Eeronheimo, Alex Malkki",
     "scripts": {
-        "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
-        "coverage": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage"
+        "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 npx jest",
+        "coverage": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 npx jest --coverage"
     },
     "repository": {
         "type": "git",
