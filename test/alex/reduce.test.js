@@ -1,4 +1,10 @@
+// Date: 28.11.2022
+// Updated: 28.11.2022
+// Author: Alex Malkki
+
 import reduce from '../../src/reduce';
+
+
 
 test('sum array values', () => {
 
