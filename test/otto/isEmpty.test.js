@@ -24,6 +24,7 @@ test('to pass: test expected falsy values', () => {
     expect(isEmpty({"":""})).toBeFalsy()
     expect(isEmpty(["1"])).toBeFalsy()
     expect(isEmpty([""])).toBeFalsy()
+    expect(isEmpty("abc")).toBeFalsy()
 })
 
 test('to pass: test if program handles malformed inputs', () => {
