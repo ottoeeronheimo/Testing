@@ -63,8 +63,8 @@ test('sum obj keys', () => {
         return acc + key;
     };
 
-    //expect(reduce(o, func)).toEqual('1abcde');
-    expect(reduce(o, func, 22)).toEqual('22abcde');
+    expect(reduce(o, func)).toEqual('1abcde');
+    //expect(reduce(o, func, 22)).toEqual('22abcde');
 });
 
 
