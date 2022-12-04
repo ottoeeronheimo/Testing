@@ -45,7 +45,7 @@ test('to pass: clamp(-7,-5, -10) = -7', () => {
 /**
  * FAILING TEST CASES
 */
-/*
+
 // Test case from clamp.js file
 test('to pass: clamp(10, -5, 5)= 5', () => {
     expect(clamp(10, -5, 5)).toBe(5);
@@ -80,4 +80,3 @@ test('to pass: clamp(40,0, 100) = 40', () => {
 test('to pass: clamp(0,-5, 5) = 0', () => {
     expect(clamp(0,-5, 5)).toBe(0);
 });
-*/

@@ -63,5 +63,5 @@ test('undefined value, undefined default', () => {
 
     expect(defaultTo(val, def)).toEqual(def_);
     expect(defaultTo(val1, def)).toEqual(def_);
-    //expect(defaultTo(val2, def)).toEqual(def_);     // Failing test (defaultTo() thinks NaN is defined value)
+    expect(defaultTo(val2, def)).toEqual(def_);     // Failing test (defaultTo() thinks NaN is defined value)
 });

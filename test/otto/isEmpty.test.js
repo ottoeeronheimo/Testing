@@ -1,6 +1,5 @@
 /**
  * Package contains unit tests for isEmpty.js function
- * Currently dummy test case for preventing error (Your test suite must contain at least one test.)
 */
 import isEmpty from '../../src/isEmpty.js';
 
@@ -35,5 +34,5 @@ test('to pass: test if program handles malformed inputs', () => {
     expect(isEmpty(false)).toBeTruthy();
     expect(isEmpty([Error])).toBeFalsy();
     expect(isEmpty({Error:Error})).toBeFalsy();
-    //expect(isEmpty(Error)).toBeTruthy();
+    expect(isEmpty(Error)).toBeTruthy();
 })

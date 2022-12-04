@@ -27,7 +27,7 @@ test('sum array indexes', () => {
 });
 
 test('sum obj values', () => {
-    
+
     const o = {
         a: 1,
         b: 2,
@@ -45,11 +45,11 @@ test('sum obj values', () => {
 // Failing test!
 // reduce() skips running the iteratee for the first time
 // when initial accumulator value is not supplied to reduce().
-// This is appearent if lines 62 and 66 are uncommented and 
+// This is appearent if lines 62 and 66 are uncommented and
 // lines 66 and 67 switched between test runs.
-/*
+
 test('sum obj keys', () => {
-    
+
     const o = {
         a: 1,
         b: 2,
@@ -66,10 +66,10 @@ test('sum obj keys', () => {
     //expect(reduce(o, func)).toEqual('1abcde');
     expect(reduce(o, func, 22)).toEqual('22abcde');
 });
-*/
+
 
 test('reduce obj values', () => {
-    
+
     const o = {
         a: 1,
         b: 1,

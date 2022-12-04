@@ -1,6 +1,5 @@
 /**
  * Package contains unit tests for endsWith.js function
- * Currently dummy test case for preventing error (Your test suite must contain at least one test.)
 */
 import endsWith from '../../src/endsWith';
 

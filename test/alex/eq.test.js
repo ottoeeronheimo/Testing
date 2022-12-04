@@ -7,7 +7,7 @@ import eq from '../../src/eq';
 
 
 test('unequal types, unequal values, unequal identities', () => {
-    
+
     const a = 'hello';
     const b = 1;
 
@@ -16,7 +16,7 @@ test('unequal types, unequal values, unequal identities', () => {
 });
 
 test('equal types, unequal values, unequal identities', () => {
-    
+
     const a = {greeting: 'hi'};
     const b = {greeting: 'Hi'};
 
@@ -58,7 +58,7 @@ test('equal types, equal values, unequal identities', () => {
 });
 
 test('equal types, equal values, equal identities', () => {
-    
+
     const a = 1;
     const b = true;
     const c = 'hello';
@@ -76,11 +76,11 @@ test('equal types, equal values, equal identities', () => {
     expect(eq(g, g)).toBe(true);
 });
 
-/*
+
 // Failing test!
 // eq() does type casting which is against SameValueZero definition.
 test('unequal types, equal values, unequal identities', () => {
-    
+
     const a = '';
     const b = 0;
 
@@ -93,4 +93,3 @@ test('unequal types, equal values, unequal identities', () => {
     expect(eq(c, d)).toBe(false);
     expect(eq(d, c)).toBe(false);
 });
-*/

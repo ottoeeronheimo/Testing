@@ -1,6 +1,5 @@
 /**
  * Package contains unit tests for slice.js function
- * Currently dummy test case for preventing error (Your test suite must contain at least one test.)
 */
 import slice from '../../src/slice.js';
 
